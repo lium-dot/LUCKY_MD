@@ -40,19 +40,20 @@
 ## 🚀 Quick Start
 
 ### Option 1: 📱 Pair with Existing Bot (Instant)
-- Pair using QR or code:
-  - Pairing Dashboard: https://fee-xmd-pair.onrender.com
-  - Pair with code: https://fee-xmd-pair.onrender.com/pair
 
-Badges:
-[PAIR WITH QR CODE](https://fee-xmd-pair.onrender.com/qr) 
+<a href="https://fee-xmd-pair.onrender.com" target="_blank"><img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Home Page">
+  </a>
 
-[PAIR WITH CODE](https://fee-xmd-pair.onrender.com/pair)
+<a href="https://fee-xmd-pair.onrender.com/qr" target="_blank"><img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Scan Qr Now">
+  </a>
+
+<a href="https://fee-xmd-pair.onrender.com/pair" target="_blank"><img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Pair Code Now">
+  </a>
 
 ### Option 2: 🛠 Deploy Your Own Instance
 
-Badge:
-[🚀 DEPLOY ON ALL PLATFORMS](https://fezchat.github.io/deploy_fee_xmd)
+<a href="https://fezchat.github.io/deploy_fee_xmd" target="_blank"><img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="DEPLOY NOW">
+  </a>
 
 ### Supported Platforms
 - Heroku (Free tier available)
@@ -157,25 +158,14 @@ npm start
 - `!currency [amount] [from] [to]` — Currency conversion
 
 
-## 🌐 Dashboard Links
-
-Primary Dashboards:
-- Pairing Dashboard: https://fee-xmd-pair.onrender.com
-- Deployment Dashboard: https://fezchat.github.io/deploy_fee_xmd
-
-Other:
-- Documentation: Coming Soon
-- Status Page: Coming Soon
-
 
 ## 📊 GitHub Statistics
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Fred1e&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats">
+  <img src="https://img.shields.io/github/stats/Fred1e?style=social" alt="GitHub Stats">
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fred1e&layout=compact&theme=radical&hide_border=true" alt="Top Languages">
+  <img src="https://img.shields.io/github/langs/Fred1e/Fee-Xmd?style=social" alt="Top languages">
   
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Fred1e&repo=Fee-Xmd&theme=radical&hide_border=true" alt="Repository Stats">
+  <img src="https://img.shields.io/github/stats/Fred1e/Fee-Xmd?style=social" alt="GitHub Stats">
   
   <img src="https://img.shields.io/github/forks/Fred1e/Fee-Xmd?style=social" alt="GitHub Forks">
   
