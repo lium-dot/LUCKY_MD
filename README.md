@@ -48,22 +48,22 @@
 ### Option 1: 📱 Pair with Existing Bot (Instant)
 
 <a href="https://fee-xmd-pair.onrender.com" target="_blank">
-  <img src="https://img.shields.io/badge/Home_Page-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Home Page" width="160">
+  <img src="https://img.shields.io/badge/Home_Page-7C3AED?style=for-the-badge&logo=blog&logoColor=white" alt="Home Page" width="160">
 </a>
 
 <a href="https://fee-xmd-pair.onrender.com/qr" target="_blank">
-  <img src="https://img.shields.io/badge/Scan_QR-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Scan QR Now" width="160">
+  <img src="https://img.shields.io/badge/Scan_QR-7C3AED?style=for-the-badge&logo=qr&logoColor=white" alt="Scan QR Now" width="160">
 </a>
 
 <a href="https://fee-xmd-pair.onrender.com/pair" target="_blank">
-  <img src="https://img.shields.io/badge/Pair_Code-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Pair Code Now" width="160">
+  <img src="https://img.shields.io/badge/Pair_Code-7C3AED?style=for-the-badge&logo=chrome&logoColor=white" alt="Pair Code Now" width="160">
 </a>
 
 ### Option 2: 🛠 Deploy Your Own Instance
 
-<a href="https://fezchat.github.io/deploy_fee_xmd" target="_blank">
-  <img src="https://img.shields.io/badge/DEPLOY_NOW-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="DEPLOY NOW" width="160">
-</a>
+<a href="https://fezchat.github.io/deploy_fee_xmd" target="_blank" style="margin:4px">
+    <img src="https://img.shields.io/badge/Deploy_Now-06B6D4?style=for-the-badge&logo=rocket&logoColor=white" alt="Deploy Now" width="160">
+  </a>
 
 ### Supported Platforms
 - Heroku (Free tier available)
@@ -88,7 +88,7 @@ wget https://github.com/Fred1e/Fee-Xmd/archive/refs/heads/main.zip -O Fee-Xmd.zi
 Download ZIP:
 
 <a href="https://github.com/Fred1e/Fee-Xmd/archive/refs/heads/main.zip" target="_blank">
-  <img src="https://img.shields.io/badge/DOWNLOAD_ZIP_NOW-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="DOWNLOAD ZIP" width="160">
+  <img src="https://img.shields.io/badge/DOWNLOAD_ZIP-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="DOWNLOAD ZIP" width="160">
 </a>
 
 ### Option B: 🐳 Run with Docker
