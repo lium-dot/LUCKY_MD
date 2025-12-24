@@ -48,15 +48,15 @@
 ### Option 1: 📱 Pair with Existing Bot (Instant)
 
 <a href="https://fee-xmd-pair.onrender.com" target="_blank">
-  <img src="https://img.shields.io/badge/Home_Page-7C3AED?style=for-the-badge&logo=blog&logoColor=white" alt="Home Page" width="160">
+  <img src="https://img.shields.io/badge/Home_Page-7C3AED?style=for-the-badge&logo=blogger&logoColor=white" alt="Home Page" width="160">
 </a>
 
 <a href="https://fee-xmd-pair.onrender.com/qr" target="_blank">
-  <img src="https://img.shields.io/badge/Scan_QR-7C3AED?style=for-the-badge&logo=qr&logoColor=white" alt="Scan QR Now" width="160">
+  <img src="https://img.shields.io/badge/Scan_QR-7C3AED?style=for-the-badge&logo=scanner&logoColor=white" alt="Scan QR Now" width="160">
 </a>
 
 <a href="https://fee-xmd-pair.onrender.com/pair" target="_blank">
-  <img src="https://img.shields.io/badge/Pair_Code-7C3AED?style=for-the-badge&logo=chrome&logoColor=white" alt="Pair Code Now" width="160">
+  <img src="https://img.shields.io/badge/Pair_Code-7C3AED?style=for-the-badge&logo=phone&logoColor=white" alt="Pair Code Now" width="160">
 </a>
 
 ### Option 2: 🛠 Deploy Your Own Instance
