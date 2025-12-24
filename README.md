@@ -41,18 +41,18 @@
 
 ### Option 1: 📱 Pair with Existing Bot (Instant)
 
-<a href="https://fee-xmd-pair.onrender.com" target="_blank"><img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Home Page">
+<a href="https://fee-xmd-pair.onrender.com" target="_blank"><img src="https://img.shields.io/badge/Home_Page-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Home Page">
   </a>
 
-<a href="https://fee-xmd-pair.onrender.com/qr" target="_blank"><img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Scan Qr Now">
+<a href="https://fee-xmd-pair.onrender.com/qr" target="_blank"><img src="https://img.shields.io/badge/Scan_Qr_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Scan Qr Now">
   </a>
 
-<a href="https://fee-xmd-pair.onrender.com/pair" target="_blank"><img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Pair Code Now">
+<a href="https://fee-xmd-pair.onrender.com/pair" target="_blank"><img src="https://img.shields.io/badge/Pair_Code_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Pair Code Now">
   </a>
 
 ### Option 2: 🛠 Deploy Your Own Instance
 
-<a href="https://fezchat.github.io/deploy_fee_xmd" target="_blank"><img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="DEPLOY NOW">
+<a href="https://fezchat.github.io/deploy_fee_xmd" target="_blank"><img src="https://img.shields.io/badge/DEPLOY_NOW-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="DEPLOY NOW">
   </a>
 
 ### Supported Platforms
@@ -75,7 +75,10 @@ curl -L https://github.com/Fred1e/Fee-Xmd/archive/refs/heads/main.zip -o Fee-Xmd
 wget https://github.com/Fred1e/Fee-Xmd/archive/refs/heads/main.zip -O Fee-Xmd.zip
 ```
 
-Download ZIP: https://github.com/Fred1e/Fee-Xmd/archive/refs/heads/main.zip
+Download ZIP:
+
+<a href="https://github.com/Fred1e/Fee-Xmd/archive/refs/heads/main.zip" target="_blank"><img src="https://img.shields.io/badge/DOWLOAD_ZIP_NOW-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Dowload Zip Now">
+  </a>
 
 ### Option B: 🐳 Run with Docker
 ```bash
