@@ -1,45 +1,23 @@
 # FEE XMD WhatsApp Bot 🤖
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Fred1e/Fee-Xmd/main/fee.jpg" alt="FEE XMD Logo" width="300">
+  <img src="https://raw.githubusercontent.com/Fred1e/Fee-Xmd/main/fredi.jpg" alt="FEE XMD Logo" width="300">
   <br>
   <h1>Advanced WhatsApp Bot with 200+ Features • Free & Open Source</h1>
 
-  <a href="https://fee-xmd-pair.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Pair Now">
+  <a href="https://fee-xmd-pair.onrender.com" target="_blank"><img src="https://img.shields.io/badge/Pair_Now-7C3AED?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Pair Now">
   </a>
-  <a href="https://fezchat.github.io/deploy_fee_xmd" target="_blank">
-    <img src="https://img.shields.io/badge/Deploy_Now-06B6D4?style=for-the-badge&logo=rocket&logoColor=white" alt="Deploy Now">
+  
+  <a href="https://fezchat.github.io/deploy_fee_xmd" target="_blank"><img src="https://img.shields.io/badge/Deploy_Now-06B6D4?style=for-the-badge&logo=rocket&logoColor=white" alt="Deploy Now">
   </a>
-  <a href="https://github.com/Fred1e/Fee-Xmd/archive/refs/heads/main.zip" target="_blank">
-    <img src="https://img.shields.io/badge/Download_ZIP-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Download ZIP">
+  
+  <a href="https://github.com/Fred1e/Fee-Xmd/archive/refs/heads/main.zip" target="_blank"><img src="https://img.shields.io/badge/Download_ZIP-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Download ZIP">
   </a>
 
   <img src="https://img.shields.io/github/stars/Fred1e/Fee-Xmd?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars">
   <img src="https://img.shields.io/github/forks/Fred1e/Fee-Xmd?style=for-the-badge&logo=github&color=blue" alt="GitHub Forks">
 </div>
 
-
-## Table of Contents
-- [Features Overview](#✨-features-overview)
-- [Quick Start](#🚀-quick-start)
-  - [Option 1: Pair with Existing Bot](#option-1-📱-pair-with-existing-bot-instant)
-  - [Option 2: Deploy Your Own Instance](#option-2-🛠-deploy-your-own-instance)
-  - [Supported Platforms](#supported-platforms)
-- [Download & Installation](#📥-download--installation)
-  - [Option A: Download ZIP](#option-a-📦-download-zip-for-control-panel)
-  - [Option B: Run with Docker](#option-b-🐳-run-with-docker)
-  - [Option C: Run Locally](#option-c-💻-run-on-local)
-- [Bot Commands](#🎯-bot-commands)
-- [Dashboard Links](#🌐-dashboard-links)
-- [GitHub Statistics](#📊-github-statistics)
-- [Developer Information](#👨‍#🤝-support--community)
-- [Contact Information](#📞-contact-information)
-- [Troubleshooting](#🛠-troubleshooting)
-- [License](#📜-license)
-- [Acknowledgments](#🙏-acknowledgments)
-- [Quick Support Links](#🆘-quick-support-links)
-- [Meta](#meta)
 
 
 ## ✨ Features Overview
@@ -67,11 +45,11 @@
   - Pair with code: https://fee-xmd-pair.onrender.com/pair
 
 Badges:
-[PAIR WITH QR CODE](https://fee-xmd-pair.onrender.com) • [PAIR WITH CODE](https://fee-xmd-pair.onrender.com/pair)
+[PAIR WITH QR CODE](https://fee-xmd-pair.onrender.com/qr) 
+
+[PAIR WITH CODE](https://fee-xmd-pair.onrender.com/pair)
 
 ### Option 2: 🛠 Deploy Your Own Instance
-- Multi-platform deploy guide: https://fezchat.github.io/deploy_fee_xmd
-- Deploy on Heroku, Railway, Render, Koyeb, Replit, etc.
 
 Badge:
 [🚀 DEPLOY ON ALL PLATFORMS](https://fezchat.github.io/deploy_fee_xmd)
@@ -82,6 +60,7 @@ Badge:
 - Render (Free web services)
 - Koyeb (2 always-free instances)
 - Replit (Cloud IDE with hosting)
+- Panels (all free panel and pro)
 
 
 ## 📥 Download & Installation
@@ -129,7 +108,7 @@ npm install
 PORT=3000
 SESSION_ID=your_session_id
 PREFIX=!
-MODS=255764182801
+MODS=255752593977
 MONGODB_URI=your_mongodb_uri
 CRON=0 */2 * * *
 WELCOME=true
@@ -193,10 +172,15 @@ Other:
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Fred1e&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats">
+  
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fred1e&layout=compact&theme=radical&hide_border=true" alt="Top Languages">
+  
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Fred1e&repo=Fee-Xmd&theme=radical&hide_border=true" alt="Repository Stats">
+  
   <img src="https://img.shields.io/github/forks/Fred1e/Fee-Xmd?style=social" alt="GitHub Forks">
+  
   <img src="https://img.shields.io/github/stars/Fred1e/Fee-Xmd?style=social" alt="GitHub Stars">
+  
   <img src="https://img.shields.io/github/watchers/Fred1e/Fee-Xmd?style=social" alt="GitHub Watchers">
 </div>
 
@@ -217,12 +201,19 @@ Other:
 
 <div align="center">
   <a href="#"><img src="https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Channel"></a>
+  
   <a href="#"><img src="https://img.shields.io/badge/WhatsApp_Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Group"></a>
+  
   <a href="#"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
+  
   <a href="#"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  
   <a href="#"><img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads"></a>
+  
   <a href="#"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
+  
   <a href="#"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
+  
   <a href="#"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"></a>
 </div>
 
@@ -263,8 +254,7 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 
 ## 🙏 Acknowledgments
 
-e/Fee-Xmd?style=social" alt="GitHub Forks">
-  <img src="https://img.shields.io/github/watchers/Fred1e/Fee-Xmd?style=social" alt="GitHub Watchers">
+<img src="https://img.shields.io/github/watchers/Fred1e/Fee-Xmd?style=social" alt="GitHub Watchers">
 </div>
 
 
