@@ -207,7 +207,7 @@ module.exports = {
                 ctx.textAlign = "center";
                 ctx.fillStyle = C.subtext;
                 ctx.font = "italic 12px sans-serif";
-                ctx.fillText(`Toxic-MD Dashboard™ • ${new Date().toLocaleString()}`, W / 2, H - 15);
+                ctx.fillText(`Fee-Xmd Dashboard™ • ${new Date().toLocaleString()}`, W / 2, H - 15);
 
                 return canvas.toBuffer("image/png");
             };
@@ -216,7 +216,7 @@ module.exports = {
             
             await client.sendMessage(m.chat, {
                 image: imageBuffer,
-                caption: `*— Bot Status ⌬*\n• *Runtime :* ${formatUptime(process.uptime())}\n• *Response Speed :* ${(toxicspeed || 0.0094).toFixed(4)} ms\n• *CPU Usage :* ${(Math.floor(Math.random() * 40) + 5) + '%'}\n\n—\n*Tσxιƈ-ɱԃȥ*`
+                caption: `*— Bot Status ⌬*\n• *Runtime :* ${formatUptime(process.uptime())}\n• *Response Speed :* ${(toxicspeed || 0.0094).toFixed(4)} ms\n• *CPU Usage :* ${(Math.floor(Math.random() * 40) + 5) + '%'}\n\n—\n*🄵🄴🄴-🅇🄼🄳*`
             }, { quoted: m });
 
         } catch (error) {
