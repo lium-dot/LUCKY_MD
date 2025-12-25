@@ -51,6 +51,7 @@ async function initializeDatabase() {
             autoread: 'false',
             autobio: 'false',
             anticall: 'false',
+            antistatusmention: 'delete',
             chatbotpm: 'false',
             autolikeemoji: '🤍',
             // Updated antilink setting to support "off", "delete", or "remove"
