@@ -6,7 +6,7 @@ module.exports = async (context) => {
     const { client, m, args, prefix } = context;
 
     const formatStylishReply = (message) => {
-      return `╭┈┈┈┈━━━━━━┈┈┈┈◈◈\n┋❒ ${message}\n╰┈┈┈┈━━━━━━┈┈┈┈◈`;
+      return `╭┈┈┈┈━━━━━━┈┈┈┈◈◈\n┋➤ ${message}\n╰┈┈┈┈━━━━━━┈┈┈┈◈`;
     };
 
     try {
@@ -26,7 +26,7 @@ module.exports = async (context) => {
         if (settings.autoread === action) {
           return await client.sendMessage(
             m.chat,
-            { text: formatStylishReply(`Autoread’s already ${value.toUpperCase()}, genius. Stop wasting my time. 😔`) },
+            { text: formatStylishReply(`Autoread message already ${value.toUpperCase()}, genius. Stop wasting my time. 🥺`) },
             { quoted: m, ad: true }
           );
         }
@@ -47,7 +47,7 @@ module.exports = async (context) => {
       await client.sendMessage(
         m.chat,
         {
-          text: formatStylishReply(`Autoread’s ${settings.autoread ? 'ON 🥶' : 'OFF 😴'}, dumbass. Pick a vibe, noob! 😈`),
+          text: formatStylishReply(`Autoread’s ${settings.autoread ? 'ON 🥶' : 'OFF 😴'}, dumbass. Pick a vibe, noob! 😌`),
           footer: "> ©🄿🄾🅆🄴🅁🄴🄳 🄱🅈 🄵🄴🄴-🅇🄼🄳",
           buttons,
           headerType: 1,
