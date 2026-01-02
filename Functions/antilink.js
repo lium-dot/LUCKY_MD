@@ -37,8 +37,9 @@ module.exports = async (client, m) => {
         }
 
         // Detect links
-        const urlRegex =
-            /(https?:\/\/[^\s]+|www\.[^\s]+|bit\.ly\/[^\s]+|t\.me\/[^\s]+|chat\.whatsapp\.com\/[^\s]+|whatsapp\.com\/[^\s]+)/gi;
+        
+const urlRegex =
+  /(https?:\/\/[^\s]+|www\.[^\s]+|bit\.ly\/[^\s]+|t\.me\/[^\s]+|chat\.whatsapp\.com\/[^\s]+|whatsapp\.com\/[^\s]+|tinyurl\.com\/[^\s]+|discord\.gg\/[^\s]+|discord\.com\/invite\/[^\s]+|instagram\.com\/[^\s]+|facebook\.com\/[^\s]+|fb\.me\/[^\s]+|youtube\.com\/[^\s]+|youtu\.be\/[^\s]+|tiktok\.com\/[^\s]+|telegram\.me\/[^\s]+|linktr\.ee\/[^\s]+|github\.com\/[^\s]+)/gi;
 
         if (!urlRegex.test(String(text).toLowerCase())) return;
 
@@ -52,16 +53,16 @@ module.exports = async (client, m) => {
             },
         });
 
-        // Toxic warning message
+        // Fee warning message
         await client.sendMessage(m.chat, {
             text:
-                `◈┈━❰ *🄵🄴🄴-🅇🄼🄳 Antilink* ❱━┈◈\n` +
-                `┋ 😒 @${m.sender.split("@")[0]}, you really thought you could drop a link here?\n` +
-                `┋ 🧹 Message swept away.\n` +
+                `★┈┈❰ *FEE-XMD ANTILINK* ❱┈┈★\n` +
+                `┋➤ 😒 @${m.sender.split("@")[0]}, you really thought you could drop a link here?\n` +
+                `┋➤ 🧹 Message swept away.\n` +
                 (antilinkMode === "remove"
-                    ? `┋ 🚪 And now you're getting kicked. Actions ➤ Consequences.\n`
-                    : `┋ ⚠️ Try that again and see what happens.\n`) +
-                `┗┈┈┈┈┈┈┈┈┈┈┈┈┈┈┛`,
+                    ? `┋➤ 🚪 And now you're getting kicked. Actions ➤ Consequences.\n`
+                    : `┋➤ ⚠️ Try that again and see what happens.\n`) +
+                `╰┈┈┈┈━━━━━━┈┈┈┈◈`,
             mentions: [m.sender],
         });
 
@@ -75,24 +76,24 @@ module.exports = async (client, m) => {
 
                 await client.sendMessage(m.chat, {
                     text:
-                        `◈┈━❰ *🄵🄴🄴-🅇🄼🄳* ❱━┈◈\n` +
-                        `┋ 🚫 @${tag} has been *yeeted* out for dropping links.\n` +
-                        `┋ Next time, read the rules. If you can.\n` +
-                        `┗┈┈┈┈┈┈┈┈┈┈┈┈┈┈┛`,
+                        `----«❰ *🄵🄴🄴-🅇🄼🄳* ❱»-----\n` +
+                        `│★ 🚫 @${tag} has been *yeeted* out for dropping links.\n` +
+                        `│★ Next time, read the rules. If you can.\n` +
+                        `╰┈┈┈┈━━━━━━┈┈┈┈◈`,
                     mentions: [user],
                 });
             } catch {
                 await client.sendMessage(m.chat, {
                     text:
-                        `◈┈━❰ *🄵🄴🄴-🅇🄼🄳* ❱━┈◈\n` +
-                        `┋ 🤦 Can't kick @${tag}. Probably missing admin perms.\n` +
-                        `┋ Fix that, boss.\n` +
-                        `┗┈┈┈┈┈┈┈┈┈┈┈┈┈┈┛`,
+                        `◈━━❰ *🄵🄴🄴-🅇🄼🄳* ❱━━◈\n` +
+                        `│➤ 🤦 Can't kick @${tag}. Probably missing admin perms.\n` +
+                        `│➤ Fix that, boss.\n` +
+                        `╰┈┈┈┈━━━━━━┈┈┈┈◈`,
                     mentions: [user],
                 });
             }
         }
     } catch (err) {
-        // Silent fail — Toxic-MD doesn't whine 😏
+        // Silent fail — Fee-Xmd doesn't whine 😏
     }
 };
