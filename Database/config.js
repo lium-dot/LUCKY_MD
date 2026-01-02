@@ -43,20 +43,20 @@ async function initializeDatabase() {
 
         const defaultSettings = {
             prefix: '.',
-            packname: '🄵🄴🄴-🅇🄼🄳',
-            mode: 'private',
+            packname: 'Fee-Xmd',
+            mode: 'public',
             presence: 'online',
             autoview: 'true',
             autolike: 'false',
             autoread: 'false',
             autobio: 'false',
             anticall: 'false',
-            antistatusmention: 'delete',
             chatbotpm: 'false',
-            autolikeemoji: '🤍',
-            // Updated antilink setting to support "off", "delete", or "remove"
+            autolikeemoji: '❤️',
             antilink: 'off',
-            antidelete: 'false'
+            antidelete: 'false',
+            antistatusmention: 'delete',
+            startmessage: 'true'
         };
 
         for (const [key, value] of Object.entries(defaultSettings)) {
@@ -78,7 +78,6 @@ async function getSettings() {
         const res = await pool.query("SELECT key, value FROM settings");
         const settings = {};
         res.rows.forEach(row => {
-            // Keep string values like 'delete' or 'remove' intact
             if (row.value === 'true') settings[row.key] = true;
             else if (row.value === 'false') settings[row.key] = false;
             else settings[row.key] = row.value;
@@ -117,7 +116,6 @@ async function getGroupSettings(jid) {
                 antipromote: res.rows[0].antipromote
             };
         }
-        // Fallback to global settings
         return {
             antidelete: globalSettings.antidelete || true,
             gcpresence: false,
