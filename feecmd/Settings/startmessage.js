@@ -6,7 +6,7 @@ module.exports = async (context) => {
     const { client, m, args, prefix } = context;
 
     const formatStylishReply = (message) => {
-      return `╭┈┈┈┈━━━━━━┈┈┈┈◈◈\n┋❒ ${message}\n╰┈┈┈┈━━━━━━┈┈┈┈◈`;
+      return `╭┈┈┈┈━━━━━━┈┈┈┈◈◈\n┋➤ ${message}\n╰┈┈┈┈━━━━━━┈┈┈┈◈`;
     };
 
     try {
@@ -26,7 +26,7 @@ module.exports = async (context) => {
         if (settings.startmessage === action) {
           return await client.sendMessage(
             m.chat,
-            { text: formatStylishReply(`Start message is already ${value.toUpperCase()}, you brain-dead fool! Stop wasting my time. 😈`) },
+            { text: formatStylishReply(`Start message is already ${value.toUpperCase()}, you brain-dead fool! Stop wasting my time. 🚫`) },
             { quoted: m, ad: true }
           );
         }
