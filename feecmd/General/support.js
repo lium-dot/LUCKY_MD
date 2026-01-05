@@ -2,7 +2,8 @@ module.exports = async (context) => {
   const { client, m } = context;
 
   const message = `
-╭┈━〔 *🄵🄴🄴-🅇🄼🄳 Support Links* 〕━┈┈╮
+★┈━━┈◈ 🄵🄴🄴-🅇🄼🄳 ◈┈┈━━┈➤
+╭┈━〔 *Support Links* 〕━┈╮
 
 > 👑 *Owner*  
 https://wa.me/255752593977
@@ -13,7 +14,7 @@ https://whatsapp.com/channel/0029Vb6mzVF7tkj42VNPrZ3V
 > 👥 *Group*  
 https://chat.whatsapp.com/FA1GPSjfUQLCyFbquWnRIS
 
-╰━┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈━╯
+╰━┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈━╯
 > ©🄿🄾🅆🄴🅁🄴🄳 🄱🅈 🄵🄴🄴-🅇🄼🄳
 `;
 
