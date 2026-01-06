@@ -8,13 +8,13 @@ module.exports = async (context) => {
         const allowedNumber = '255752593977@s.whatsapp.net';
         if (m.sender !== allowedNumber) {
             return await client.sendMessage(m.chat, {
-                text: `�? *Access denied!* This command is restricted to the bot owner.\n\n◈━━━━━━━━━━━━━━━━◈\n> Pσɯҽɾԃ Ⴆყ Tσxιƈ-ɱԃȥ`
+                text: `鉂? *Access denied!* This command is restricted to the bot owner.\n\n鈼堚攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲棃\n> P蟽莎医删詢 醾︶儳 T蟽x喂茍-杀詢去`
             }, { quoted: m });
         }
 
         if (!text) {
             return await client.sendMessage(m.chat, {
-                text: `📜 *Please provide a command name!* Example: *${prefix}getcmd or ${prefix}cmd ping*\n\n◈━━━━━━━━━━━━━━━━◈\n> Pσɯҽɾԃ Ⴆყ Tσxιƈ-ɱԃȥ`
+                text: `馃摐 *Please provide a command name!* Example: *${prefix}getcmd or ${prefix}cmd ping*\n\n鈼堚攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲棃\n> P蟽莎医删詢 醾︶儳 T蟽x喂茍-杀詢去`
             }, { quoted: m });
         }
 
@@ -23,6 +23,7 @@ module.exports = async (context) => {
             { name: 'Settings' },
             { name: 'Owner' },
             { name: 'Heroku' },
+            { name: 'Business'},
             { name: 'Wa-Privacy' },
             { name: 'Groups' },
             { name: 'AI' },
@@ -43,14 +44,14 @@ module.exports = async (context) => {
 
             try {
                 const data = await fs.readFile(filePath, 'utf8');
-                const replyText = `�? *Command file: ${commandName}.js*\n\n\`\`\`javascript\n${data}\n\`\`\`\n\n◈━━━━━━━━━━━━━━━━◈\n> Pσɯҽɾԃ Ⴆყ Tσxιƈ-ɱԃȥ`;
+                const replyText = `鉁? *Command file: ${commandName}.js*\n\n\`\`\`javascript\n${data}\n\`\`\`\n\n鈼堚攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲棃\n> ©🄿🄾🅆🄴🅁🄴🄳 🄱🅈 🄵🄴🄴-🅇🄼🄳`;
                 await client.sendMessage(m.chat, { text: replyText }, { quoted: m });
                 fileFound = true;
                 break;
             } catch (err) {
                 if (err.code !== 'ENOENT') {
                     await client.sendMessage(m.chat, {
-                        text: `⚠️ *Error reading command file:* ${err.message}\n\n◈━━━━━━━━━━━━━━━━◈\n> Pσɯҽɾԃ Ⴆყ Tσxιƈ-ɱԃȥ`
+                        text: `鈿狅笍 *Error reading command file:* ${err.message}\n\n鈼堚攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲棃\n> ©🄿🄾🅆🄴🅁🄴🄳 🄱🅈 🄵🄴🄴-🅇🄼🄳`
                     }, { quoted: m });
                     return;
                 }
@@ -59,13 +60,13 @@ module.exports = async (context) => {
 
         if (!fileFound) {
             await client.sendMessage(m.chat, {
-                text: `�? *Command not found:* ${commandName}\n\nTry a valid command name!\n\n◈━━━━━━━━━━━━━━━━◈\n> Pσɯҽɾԃ Ⴆყ Tσxιƈ-ɱԃȥ`
+                text: `鉂? *Command not found:* ${commandName}\n\nTry a valid command name!\n\n鈼堚攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲棃\n> ©🄿🄾🅆🄴🅁🄴🄳 🄱🅈 🄵🄴🄴-🅇🄼🄳`
             }, { quoted: m });
         }
     } catch (error) {
         console.error('Error in getcmd command:', error);
         await client.sendMessage(m.chat, {
-            text: `⚠️ *Oops! Failed to process command:* ${error.message}\n\n◈━━━━━━━━━━━━━━━━◈\nPowered by *𝐓𝐎𝐖𝐈𝐂-𝐌𝐃 𝐕3*`
+            text: `鈿狅笍 *Oops! Failed to process command:* ${error.message}\n\n鈼堚攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲棃\nPowered by *🄵🄴🄴-🅇🄼🄳*`
         }, { quoted: m });
     }
 };
