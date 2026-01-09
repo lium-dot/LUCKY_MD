@@ -65,7 +65,7 @@ module.exports = {
                             fileLength: '1435',  
                             pageCount: 0,  
                             mediaKey: 'MWO6fI223TY8T0i9onNcwNBBPldWfwp1j1FPKCiJFzw=',  
-                            fileName: 'FEE-XMD',  
+                            fileName: 'FEE-XMD MENU',  
                             fileEncSha256: 'ZS8v9tio2un1yWVOOG3lwBxiP+mNgaKPY9+wl5pEoi8=',  
                             directPath: '/v/t62.7119-24/539012045_745537058346694_1512031191239726227_n.enc?ccb=11-4&oh=01_Q5Aa2QGGiJj--6eHxoTTTTzuWtBgCrkcXBz9hN_y2s_Z1lrABA&oe=68D7901C&_nc_sid=5e03e0',  
                             mediaKeyTimestamp: '1756370084',  
@@ -77,10 +77,42 @@ module.exports = {
                     footer: { text: `Pσɯҽɾҽԃ Ⴆყ ${botname}` },  
                     nativeFlowMessage: {  
                         buttons: [  
+                            {
+                                name: 'cta_url',
+                                buttonParamsJson: JSON.stringify({
+                                    display_text: '📢 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 𝘾𝙝𝙖𝙣𝙣𝙚𝙡',
+                                    url: 'https://whatsapp.com/channel/0029Vb6mzVF7tkj42VNPrZ3V',
+                                    merchant_url: 'https://whatsapp.com/channel/0029Vb6mzVF7tkj42VNPrZ3V',
+                                }),
+                            },
+                            {
+                                name: 'cta_url',
+                                buttonParamsJson: JSON.stringify({
+                                    display_text: '📘 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 Support',
+                                    url: 'https://facebook.com/FrediEzra',
+                                    merchant_url: 'https://facebook.com/FrediEzra',
+                                }),
+                            },
+                            {
+                                name: 'cta_url',
+                                buttonParamsJson: JSON.stringify({
+                                    display_text: '📷 𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢 Support',
+                                    url: 'https://instagram.com/frediezra',
+                                    merchant_url: 'https://instagram.com/frediezra',
+                                }),
+                            },
+                            {
+                                name: 'cta_url',
+                                buttonParamsJson: JSON.stringify({
+                                    display_text: '🎵 𝙏𝙞𝙠𝙏𝙤𝙠 Support',
+                                    url: 'https://tiktok.com/frediezra1',
+                                    merchant_url: 'https://tiktok.com/frediezra1',
+                                }),
+                            },
                             {  
                                 name: 'cta_url',  
                                 buttonParamsJson: JSON.stringify({  
-                                    display_text: 'GitHub Repo',  
+                                    display_text: '🐙 𝙂𝙞𝙩𝙃𝙪𝙗 𝙍𝙚𝙥𝙤',  
                                     url: 'https://github.com/Fred1e/Fee-Xmd',  
                                     merchant_url: 'https://github.com/Fred1e/Fee-Xmd',  
                                 }),  
@@ -94,16 +126,18 @@ module.exports = {
                                             title: '⌜ 𝘾𝙤𝙧𝙚 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ⌟',  
                                             highlight_label: '© 丨几匚',  
                                             rows: [  
+                                                { title: '𝐏𝐢𝐧𝐠', description: 'Check bot response time', id: `${prefix}ping` },
+                                                { title: '𝐑𝐞𝐩𝐨', description: 'Get bot repository link', id: `${prefix}repo` },
                                                 { title: '𝐅𝐮𝐥𝐥𝐌𝐞𝐧𝐮', description: 'Display all commands', id: `${prefix}fullmenu` },  
-                                                { title: '𝐃𝐞𝐯', description: "send developer contact", id: `${prefix}dev` },  
+                                                { title: '𝐃𝐞𝐯', description: "Send developer contact", id: `${prefix}dev` },  
                                             ],  
                                         },  
                                         {  
                                             title: 'ℹ 𝙄𝙣𝙛𝙤 𝘽𝙤𝙩',  
                                             highlight_label: '© 丨几匚',  
                                             rows: [  
-                                                { title: '𝐏𝐢𝐧𝐠', description: '', id: `${prefix}ping` },  
-                                                { title: '𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬', description: 'show bot settings', id: `${prefix}settings` },  
+                                                { title: '𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬', description: 'Show bot settings', id: `${prefix}settings` },  
+                                                { title: '𝐒𝐮𝐩𝐩𝐨𝐫𝐭', description: 'Get support information', id: `${prefix}support` },
                                             ],  
                                         },  
                                         {  
@@ -112,9 +146,7 @@ module.exports = {
                                             rows: [  
                                                 { title: '𝐆𝐞𝐧𝐞𝐫𝐚𝐥𝐌𝐞𝐧𝐮', description: 'General commands', id: `${prefix}generalmenu` },  
                                                 { title: '𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬𝐌𝐞𝐧𝐮', description: 'Bot settings commands', id: `${prefix}settingsmenu` },  
-
-{ title: '𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬𝐌𝐞𝐧𝐮', description: 'Bot Currency exchange commands', id: `${prefix}businessmenu` },  
-
+                                                { title: '𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬𝐌𝐞𝐧𝐮', description: 'Bot Currency exchange commands', id: `${prefix}businessmenu` },  
                                                 { title: '𝐎𝐰𝐧𝐞𝐫𝐌𝐞𝐧𝐮', description: 'Owner only commands', id: `${prefix}ownermenu` },  
                                                 { title: '𝐇𝐞𝐫𝐨𝐤𝐮𝐌𝐞𝐧𝐮', description: 'Heroku related commands', id: `${prefix}herokumenu` },  
                                                 { title: '𝐏𝐫𝐢𝐯𝐚𝐜𝐲𝐌𝐞𝐧𝐮', description: 'Privacy commands', id: `${prefix}privacymenu` },  
@@ -165,14 +197,14 @@ module.exports = {
 
         await client.relayMessage(m.chat, msg.message, { messageId: msg.key.id });  
 
-        const xhClintonPaths = [
+        const mrFrediPaths = [
             path.join(__dirname, 'fredi_ezra'),
             path.join(process.cwd(), 'fredi_ezra'),
             path.join(__dirname, '..', 'fredi_ezra')
         ];
 
         let audioFolder = null;
-        for (const folderPath of xhClintonPaths) {
+        for (const folderPath of mrFrediPaths) {
             if (fs.existsSync(folderPath)) {
                 audioFolder = folderPath;
                 break;
