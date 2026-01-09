@@ -174,7 +174,7 @@ module.exports = {
                                 in_thread_buttons_limit: 2,  
                                 divider_indices: [1, 2],  
                                 list_title: 'Select Command',  
-                                button_title: 'FEE-XMD',  
+                                button_title: 'FEE-XMD MENU',  
                             },  
                         }),  
                     },  
