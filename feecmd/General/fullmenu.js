@@ -17,6 +17,8 @@ module.exports = {
       { name: 'General', display: 'GEᑎEᖇᗩᒪMENU', emoji: '📜' },
       { name: 'Settings', display: 'SETTINGSMENU', emoji: '🛠️' },
       { name: 'Business', display: 'BUSINESSMENU', emoji: '💹' },
+      { name: 'Fun', display: 'FUNMENU', emoji: '🤸' },
+      { name: 'God', display: 'GODMENU', emoji: '📖' },
       { name: 'Owner', display: 'OWNERMENU', emoji: '👑' },
       { name: 'Heroku', display: 'HEROKUMENU', emoji: '☁️' },
       { name: 'Wa-Privacy', display: 'PRIVACYMENU', emoji: '🔒' },
