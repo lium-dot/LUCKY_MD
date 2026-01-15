@@ -39,18 +39,18 @@ module.exports = {
                 .join('');  
         };  
 
-        const menuText = `◈━┈┈┈┈┈┈┈┈┈┈┈┈┈┈━◈\n│❒ *( 💬 ) - Hello, @${m.pushName}* Welcome to the bots Menu\n\n` +   
+        const menuText = `╭━┈┈┈┈┈┈┈┈┈┈┈┈\n┋❒ *( 💬 ) - Hello, @${m.pushName}* Welcome to the bots Menu\n\n` +   
             `- 計さ Bot INFORMATION✓\n\n` +  
-            `⌬ *Bσƚ*: \n` +  
+            `➤ *Bσƚ*: \n` +  
             `🄵🄴🄴-🅇🄼🄳 (bow down)\n` +  
 
-            `⌬ *Pɾҽϝιx*: \n` +  
+            `➤ *Pɾҽϝιx*: \n` +  
             `${effectivePrefix} (learn it, dumbass)\n` +  
 
-            `⌬ *Mσԃҽ*: \n` +  
+            `➤ *Mσԃҽ*: \n` +  
             `${mode} ( ! )\n` +  
 
-            `\n◈━┈┈┈┈┈┈┈┈┈┈┈┈┈┈━◈\n\n` +  
+            `\n╰━┈┈┈┈┈┈┈┈┈┈┈┈┈┈➤\n\n` +  
             ` ( ! ) *Select a button below.* `;  
 
         const msg = generateWAMessageFromContent(  
@@ -147,6 +147,8 @@ module.exports = {
                                                 { title: '𝐆𝐞𝐧𝐞𝐫𝐚𝐥𝐌𝐞𝐧𝐮', description: 'General commands', id: `${prefix}generalmenu` },  
                                                 { title: '𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬𝐌𝐞𝐧𝐮', description: 'Bot settings commands', id: `${prefix}settingsmenu` },  
                                                 { title: '𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬𝐌𝐞𝐧𝐮', description: 'Bot Currency exchange commands', id: `${prefix}businessmenu` },  
+                                                { title: 'Fun Menu', description: 'Fun Commands enjoy', id: `${prefix}funmenu` },  
+                                                { title: 'God 𝐌𝐞𝐧𝐮', description: 'Read Holy Bible and Quran', id: `${prefix}godmenu` },  
                                                 { title: '𝐎𝐰𝐧𝐞𝐫𝐌𝐞𝐧𝐮', description: 'Owner only commands', id: `${prefix}ownermenu` },  
                                                 { title: '𝐇𝐞𝐫𝐨𝐤𝐮𝐌𝐞𝐧𝐮', description: 'Heroku related commands', id: `${prefix}herokumenu` },  
                                                 { title: '𝐏𝐫𝐢𝐯𝐚𝐜𝐲𝐌𝐞𝐧𝐮', description: 'Privacy commands', id: `${prefix}privacymenu` },  
